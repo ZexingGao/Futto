@@ -1,0 +1,134 @@
+PODS:
+  - Alamofire (4.7.2)
+  - couchbase-lite-ios (1.4.1):
+    - couchbase-lite-ios/SQLite (= 1.4.1)
+  - couchbase-lite-ios/SQLite (1.4.1)
+  - Crashlytics (3.10.2):
+    - Fabric (~> 1.7.7)
+  - EmitterKit (5.2.0)
+  - Eureka (4.1.1)
+  - Fabric (1.7.7)
+  - Hakuba (2.1.1)
+  - IDZSwiftCommonCrypto (0.10.0)
+  - KeychainSwift (8.0.3)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.0.0)
+  - PermissionScope (1.1.1)
+  - PKHUD (4.2.3)
+  - PromiseKit (4.5.2):
+    - PromiseKit/Foundation (= 4.5.2)
+    - PromiseKit/QuartzCore (= 4.5.2)
+    - PromiseKit/UIKit (= 4.5.2)
+  - PromiseKit/CorePromise (4.5.2)
+  - PromiseKit/Foundation (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.2):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (4.1.0)
+  - ResearchKit (1.5.2)
+  - SwiftValidator (4.0.0)
+  - XCGLogger (5.0.5):
+    - XCGLogger/Core (= 5.0.5)
+  - XCGLogger/Core (5.0.5):
+    - ObjcExceptionBridging
+  - XLActionController (4.0.1):
+    - XLActionController/Core (= 4.0.1)
+  - XLActionController/Core (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - couchbase-lite-ios
+  - Crashlytics (~> 3.4)
+  - EmitterKit (~> 5.1)
+  - Eureka (from `https://github.com/xmartlabs/Eureka`)
+  - Hakuba (from `https://github.com/eskizyen/Hakuba.git`, branch `Swift3`)
+  - IDZSwiftCommonCrypto (~> 0.9)
+  - KeychainSwift (~> 8.0)
+  - ObjectMapper (from `https://github.com/Hearst-DD/ObjectMapper.git`, branch `swift-4`)
+  - PermissionScope
+  - PKHUD (from `https://github.com/pkluz/PKHUD.git`, branch `swift4`)
+  - PromiseKit (~> 4.4)
+  - ReachabilitySwift
+  - ResearchKit
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - XCGLogger (~> 5.0.1)
+  - XLActionController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - couchbase-lite-ios
+    - Crashlytics
+    - EmitterKit
+    - Fabric
+    - IDZSwiftCommonCrypto
+    - KeychainSwift
+    - ObjcExceptionBridging
+    - PermissionScope
+    - PromiseKit
+    - ReachabilitySwift
+    - ResearchKit
+    - XCGLogger
+    - XLActionController
+
+EXTERNAL SOURCES:
+  Eureka:
+    :git: https://github.com/xmartlabs/Eureka
+  Hakuba:
+    :branch: Swift3
+    :git: https://github.com/eskizyen/Hakuba.git
+  ObjectMapper:
+    :branch: swift-4
+    :git: https://github.com/Hearst-DD/ObjectMapper.git
+  PKHUD:
+    :branch: swift4
+    :git: https://github.com/pkluz/PKHUD.git
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  Eureka:
+    :commit: 33c8d9ca33d682d1b5b670d96483562e4798c254
+    :git: https://github.com/xmartlabs/Eureka
+  Hakuba:
+    :commit: 9d748747369671e162b4f088402eacbfa997121a
+    :git: https://github.com/eskizyen/Hakuba.git
+  ObjectMapper:
+    :commit: cb12ab3ca9b08c4fd3cec93cafd86d181ac7818e
+    :git: https://github.com/Hearst-DD/ObjectMapper.git
+  PKHUD:
+    :commit: 4d8fbf70ae912dd72280cde0a5c1440ada9a7306
+    :git: https://github.com/pkluz/PKHUD.git
+  SwiftValidator:
+    :commit: ba27b0e501bf542b5c1a97bed8f706d12fb2d4f4
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  couchbase-lite-ios: 7c875538a0fc55a7e9744edb4e89c23737686230
+  Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
+  EmitterKit: c3948fb82c4cdb11d9019c13d374e7f22188537e
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+  Fabric: bda89e242bce1b7b8ab264248cf3407774ce0095
+  Hakuba: bc5a0422290d086c33a6424a26dd58c1a1136e94
+  IDZSwiftCommonCrypto: 4eef2c46e262dfbcbc1fd76365e066336680ad7d
+  KeychainSwift: be9554c0e5f4b1686c775930dc5c6bd9396992ed
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 739e5530df22248823f6cc7ed9e016ebf2c26a27
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  PKHUD: 351011b853e6b942e7ee8ad335864cc84c787241
+  PromiseKit: 743e497a5f505a470d3bbbf4ce0663c1268af0a4
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  ResearchKit: a5770681dd61afddd3d1f24d232b9abf00cba454
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  XCGLogger: 49bceee6dc0c738eae5d6454fdbf800d62256b74
+  XLActionController: 007868251c0eed70d649d06c1625259b73b3a600
+
+PODFILE CHECKSUM: fe6a53ca0f034514c6fe387ad6081317544197d3
+
+COCOAPODS: 1.5.3
