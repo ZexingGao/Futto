@@ -10,7 +10,23 @@
 import UIKit
 import WebKit
 class WebViewController: UIViewController, WKUIDelegate {
+    @IBOutlet weak var webView: UIWebView!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //let myURL = URL(string: "https://google.com")
+        let myURL = URL(string: "http://findyourdreamjob.org/")
+        //let myRequest = URLRequest(url: myURL!)
+        webView.loadRequest(URLRequest(url: myURL!))
+       
+    }
+   
+    
+
+}
+//this code working on simulator but will crash on real phone
+/*
     @IBOutlet weak var webView: WKWebView!
     
     override func loadView() {
@@ -24,13 +40,11 @@ class WebViewController: UIViewController, WKUIDelegate {
         super.viewDidLoad()
         
         //let myURL = URL(string: "https://google.com")
-        let myURL = URL(string: "https://findyourdreamjob.org/")
+        let myURL = URL(string: "http://findyourdreamjob.org/")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }
-    
-    
-}
-
+ 
+ */
 
 

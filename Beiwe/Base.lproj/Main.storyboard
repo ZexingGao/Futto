@@ -621,18 +621,31 @@
                     <view key="view" contentMode="scaleToFill" id="UYc-Q6-juk" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfv-Gw-1Gx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wQi-fd-fAG" firstAttribute="top" secondItem="tfv-Gw-1Gx" secondAttribute="bottom" constant="-44" id="6un-2H-lM6"/>
+                            <constraint firstItem="tfv-Gw-1Gx" firstAttribute="top" secondItem="aTc-aN-I6S" secondAttribute="bottom" id="BFm-SO-liH"/>
+                            <constraint firstAttribute="trailing" secondItem="tfv-Gw-1Gx" secondAttribute="trailing" id="OuU-ub-5W8"/>
+                            <constraint firstItem="tfv-Gw-1Gx" firstAttribute="leading" secondItem="UYc-Q6-juk" secondAttribute="leading" id="Smv-SB-swe"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Job" id="nE5-hh-XhF"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="emptySurveyHeader" destination="N0x-11-GBl" id="tgR-XH-LBF"/>
+                        <outlet property="webView" destination="tfv-Gw-1Gx" id="l1V-ec-Pcb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfK-uM-gkr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2033" y="-369"/>
+            <point key="canvasLocation" x="2032.8" y="-369.26536731634184"/>
         </scene>
         <!--UberViewController-->
         <scene sceneID="a6v-hq-9go">
@@ -667,7 +680,7 @@
                         <viewControllerLayoutGuide type="bottom" id="j5T-4D-ThJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rW3-kV-eIq" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
