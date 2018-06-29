@@ -157,6 +157,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
@@ -175,6 +177,8 @@ if [[ "$CONFIGURATION" == "TestFlight Internal" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
@@ -193,6 +197,8 @@ if [[ "$CONFIGURATION" == "TestFlight KG" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
@@ -211,6 +217,8 @@ if [[ "$CONFIGURATION" == "TestFlight External" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
@@ -229,6 +237,8 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
@@ -247,6 +257,8 @@ if [[ "$CONFIGURATION" == "Harvard" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi

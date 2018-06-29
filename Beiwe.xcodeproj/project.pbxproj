@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DF5EFD920DDA33A00DDAD29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5EFD820DDA33A00DDAD29 /* HomeViewController.swift */; };
+		1DF5EFDB20E12D5C00DDAD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF5EFDA20E12D5B00DDAD29 /* Assets.xcassets */; };
+		1DF5EFDD20E1307600DDAD29 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5EFDC20E1307600DDAD29 /* MapViewController.swift */; };
+		1DF5EFDF20E1347200DDAD29 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5EFDE20E1347200DDAD29 /* WebViewController.swift */; };
 		831CC5801F79AF6400CDEFB0 /* AppEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CC57F1F79AF6400CDEFB0 /* AppEventManager.swift */; };
 		832FFC1E1CC8506900F2E1EF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC1D1CC8506900F2E1EF /* GradientView.swift */; };
 		832FFC221CC85A7C00F2E1EF /* BWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC211CC85A7C00F2E1EF /* BWButton.swift */; };
 		832FFC241CC863F400F2E1EF /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC231CC863F400F2E1EF /* AppColors.swift */; };
 		832FFC261CC866AB00F2E1EF /* UINavigationController+transparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC251CC866AB00F2E1EF /* UINavigationController+transparent.swift */; };
-		832FFC281CC86A0800F2E1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832FFC271CC86A0800F2E1EF /* Assets.xcassets */; };
 		832FFC2D1CC889DB00F2E1EF /* SurveyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC2C1CC889DB00F2E1EF /* SurveyCell.swift */; };
 		832FFC2F1CC9C30E00F2E1EF /* BWXLAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC2E1CC9C30E00F2E1EF /* BWXLAction.swift */; };
 		832FFC321CC9C3CD00F2E1EF /* ActionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FFC301CC9C3CD00F2E1EF /* ActionData.swift */; };
@@ -83,6 +86,11 @@
 /* Begin PBXFileReference section */
 		0C28CF531AD7B3D35000BA28 /* Pods-Beiwe.testflight kg.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beiwe.testflight kg.xcconfig"; path = "Pods/Target Support Files/Pods-Beiwe/Pods-Beiwe.testflight kg.xcconfig"; sourceTree = "<group>"; };
 		1859E756C67EFE5FEECB7BEE /* Pods-Beiwe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beiwe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beiwe/Pods-Beiwe.debug.xcconfig"; sourceTree = "<group>"; };
+		1D75D4B920E2B9BD00367FF0 /* Beiwe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beiwe.entitlements; sourceTree = "<group>"; };
+		1DF5EFD820DDA33A00DDAD29 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1DF5EFDA20E12D5B00DDAD29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		1DF5EFDC20E1307600DDAD29 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1DF5EFDE20E1347200DDAD29 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		36EDF07B2D8E6AF15C179925 /* Pods-Beiwe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beiwe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beiwe/Pods-Beiwe.release.xcconfig"; sourceTree = "<group>"; };
 		38F9762E5747F220806BB64A /* Pods-Beiwe.testflight external.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beiwe.testflight external.xcconfig"; path = "Pods/Target Support Files/Pods-Beiwe/Pods-Beiwe.testflight external.xcconfig"; sourceTree = "<group>"; };
 		4D73594BB9D98FBE3AA1E023 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +99,6 @@
 		832FFC211CC85A7C00F2E1EF /* BWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWButton.swift; sourceTree = "<group>"; };
 		832FFC231CC863F400F2E1EF /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		832FFC251CC866AB00F2E1EF /* UINavigationController+transparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+transparent.swift"; sourceTree = "<group>"; };
-		832FFC271CC86A0800F2E1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		832FFC2C1CC889DB00F2E1EF /* SurveyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyCell.swift; sourceTree = "<group>"; };
 		832FFC2E1CC9C30E00F2E1EF /* BWXLAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWXLAction.swift; sourceTree = "<group>"; };
 		832FFC301CC9C3CD00F2E1EF /* ActionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionData.swift; sourceTree = "<group>"; };
@@ -354,6 +361,9 @@
 				83C7D3881CB5F43400BC7285 /* TaskListViewController.swift */,
 				83B2BDEF1CC1C068007FAE91 /* BWORKTaskViewController.swift */,
 				832FFC341CCED80200F2E1EF /* AudioQuestionViewController.swift */,
+				1DF5EFDC20E1307600DDAD29 /* MapViewController.swift */,
+				1DF5EFD820DDA33A00DDAD29 /* HomeViewController.swift */,
+				1DF5EFDE20E1347200DDAD29 /* WebViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -379,7 +389,8 @@
 		83F98C381C923C3600E0B64B /* Beiwe */ = {
 			isa = PBXGroup;
 			children = (
-				832FFC271CC86A0800F2E1EF /* Assets.xcassets */,
+				1D75D4B920E2B9BD00367FF0 /* Beiwe.entitlements */,
+				1DF5EFDA20E12D5B00DDAD29 /* Assets.xcassets */,
 				83B2BDF51CC1DC58007FAE91 /* RK */,
 				83C7D37E1CB593D500BC7285 /* ObjC */,
 				83C7D37B1CB5927600BC7285 /* Views */,
@@ -413,7 +424,6 @@
 				83F98C331C923C3600E0B64B /* Frameworks */,
 				83F98C341C923C3600E0B64B /* Resources */,
 				83E3DE861CA3A41E00EB5349 /* ShellScript */,
-				83F98C501C925F2500E0B64B /* ShellScript */,
 				83F98C511C925F6F00E0B64B /* ShellScript */,
 				83F98C4F1C9250A600E0B64B /* Run Script */,
 				01F202B01C005ABDD8F3C785 /* [CP] Embed Pods Frameworks */,
@@ -442,6 +452,11 @@
 						DevelopmentTeam = H48927ZXMG;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -471,8 +486,8 @@
 				832FFC331CC9C3CD00F2E1EF /* BWXLCell.xib in Resources */,
 				83F98C441C923C3600E0B64B /* LaunchScreen.storyboard in Resources */,
 				83AF04251CAD6FFF00A37225 /* Config-Pre1.plist in Resources */,
-				832FFC281CC86A0800F2E1EF /* Assets.xcassets in Resources */,
 				83AB51391F9FDBAF0058F3B0 /* Config-Hvd.plist in Resources */,
+				1DF5EFDB20E12D5C00DDAD29 /* Assets.xcassets in Resources */,
 				83F98C3F1C923C3600E0B64B /* Main.storyboard in Resources */,
 				83914CAF1D00DA4600B01C82 /* ForgotPasswordHeaderView.xib in Resources */,
 			);
@@ -502,6 +517,8 @@
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework",
+				"${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
 			);
@@ -521,6 +538,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberRides.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
 			);
@@ -574,19 +593,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" e39144f1f340beaea740ae45276af72b2f8d2708 61ae03d66f3516dcaa9f0ffaf3c9db9dc49037fdc0e38105a7f5a48ac0f466a1";
 		};
-		83F98C501C925F2500E0B64B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "IFS=$'\\n'\nVERSION=`git describe --abbrev=0 |sed -e \"s/^[^0-9]*//\"`\nif [[ $VERSION =~ ^[0-9]*\\.[0-9]*\\.[0-9]*$ ]]; then\necho \"Base version: $VERSION\"\nelse\nVERSION=\"${VERSION%.*}\"\nif [[ $VERSION =~ ^[0-9]*\\.[0-9]*\\.[0-9]*$ ]]; then\necho \"Base version: $VERSION\"\nelse\necho \"Illegal version: $VERSION\"\nexit -1\nfi\nfi\nEPOCH=`date +%s`\nTAGDATE=`git log -1 --format=%at ${VERSION}`\nDIFF=`expr $EPOCH - $TAGDATE`\nBUILD=\"${VERSION}.`expr $DIFF / 60`\"\ngit tag \"$BUILD\" -a -m \"$BUILD\"\n\necho \"Updating Info.plist version to Ver: ${VERSION}, Build: $BUILD\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${BUILD}\" -c \"Set :CFBundleShortVersionString ${VERSION}\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion ${BUILD}\" -c \"Set :CFBundleShortVersionString ${VERSION}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n#/usr/bin/plutil -convert ${INFOPLIST_OUTPUT_FORMAT}1 \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
-		};
 		83F98C511C925F6F00E0B64B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -622,7 +628,9 @@
 				83C7D3831CB5943B00BC7285 /* BWBorderedButton.m in Sources */,
 				83C295F81CBA048F0016DD95 /* ActiveSurvey.swift in Sources */,
 				8337656E1DED321C00E1B883 /* BWSkipStepNavigationRule.swift in Sources */,
+				1DF5EFDF20E1347200DDAD29 /* WebViewController.swift in Sources */,
 				83AF04151CAB556800A37225 /* GPSManager.swift in Sources */,
+				1DF5EFDD20E1307600DDAD29 /* MapViewController.swift in Sources */,
 				83AF042D1CB0D21700A37225 /* GyroManager.swift in Sources */,
 				83C295F21CB817AD0016DD95 /* Survey.swift in Sources */,
 				83C7D37A1CB4E30C00BC7285 /* UploadRequest.swift in Sources */,
@@ -640,6 +648,7 @@
 				83B2BDF71CC1DCBA007FAE91 /* BWORKScaleAnswerFormat.swift in Sources */,
 				83C295F41CB831330016DD95 /* GenericSurveyQuestion.swift in Sources */,
 				8337656C1DED27B200E1B883 /* BWNavigatableTask.swift in Sources */,
+				1DF5EFD920DDA33A00DDAD29 /* HomeViewController.swift in Sources */,
 				83AF043B1CB3451A00A37225 /* OnboardingManager.swift in Sources */,
 				83AF043D1CB35D2000A37225 /* LoginViewController.swift in Sources */,
 				83AF04191CAB843D00A37225 /* SwiftyRSA.swift in Sources */,
@@ -765,7 +774,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = CarnegieMellon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarnegieMellon.Futto;
 				PRODUCT_NAME = "$(TARGET_NAME)${TARGET_NAME_SUFFIX}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beiwe-Bridging-Header.h";
@@ -891,7 +900,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = debug;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = H48927ZXMG;
@@ -899,7 +908,7 @@
 				INFOPLIST_FILE = Beiwe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CarnegieMellon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarnegieMellon.Futto;
 				PRODUCT_NAME = "$(TARGET_NAME)${TARGET_NAME_SUFFIX}";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -925,7 +934,7 @@
 				INFOPLIST_FILE = Beiwe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CarnegieMellon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarnegieMellon.Futto;
 				PRODUCT_NAME = "$(TARGET_NAME)${TARGET_NAME_SUFFIX}";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1008,8 +1017,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = CarnegieMellon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarnegieMellon.Futto;
 				PRODUCT_NAME = "$(TARGET_NAME)${TARGET_NAME_SUFFIX}";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beiwe-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -1090,7 +1100,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = CarnegieMellon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarnegieMellon.Futto;
 				PRODUCT_NAME = "$(TARGET_NAME)${TARGET_NAME_SUFFIX}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beiwe-Bridging-Header.h";
@@ -1166,7 +1176,7 @@
 				INFOPLIST_FILE = Beiwe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CarnegieMellon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarnegieMellon.Futto;
 				PRODUCT_NAME = Beiwe2;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

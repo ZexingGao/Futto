@@ -10,7 +10,7 @@ target 'Beiwe' do
 
 
   pod 'Eureka', :git => 'https://github.com/xmartlabs/Eureka'
-
+  pod 'UberRides', '~> 0.9'
 
   pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :branch => 'master'
   pod "PKHUD", :git => 'https://github.com/pkluz/PKHUD.git', :branch => 'swift4'

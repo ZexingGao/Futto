@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>CarnegieMellon</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>5</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -44,18 +44,24 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Futto needs your Bluetooth </string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>futto needs your Calendars usage</string>
 	<key>NSCameraUsageDescription</key>
 	<string>For medical research with ResearchKit</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Futto needs your contacts usage</string>
 	<key>NSHealthShareUsageDescription</key>
 	<string>For medical research with ResearchKit</string>
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>For medical research with ResearchKit</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Beiwe needs your location at all times to properly conduct medical research.</string>
+	<string>Futto needs your location at all times to properly conduct medical research.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Beiwe needs your location to properly conduct medical research.</string>
+	<string>Futto needs your location to properly conduct medical research.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Beiwe needs your location to properly conduct medical research.</string>
+	<string>Futto needs your location to properly conduct medical research.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Record audio survey questions</string>
 	<key>NSMotionUsageDescription</key>

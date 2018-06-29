@@ -4,7 +4,9 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,7 +28,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ej-BD-9Xj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-518" y="-303"/>
+            <point key="canvasLocation" x="-430" y="-369"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="RmD-UF-ejn">
@@ -113,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fs0-Xn-j8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="994" y="-302"/>
+            <point key="canvasLocation" x="993" y="-369"/>
         </scene>
         <!--Main Study ViewController-->
         <scene sceneID="tne-QT-ifu">
@@ -253,12 +255,7 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Study" id="oyA-yJ-afD">
-                        <barButtonItem key="leftBarButtonItem" image="ic-user" id="Df7-ve-t6h">
-                            <color key="tintColor" red="0.98823529409999999" green="1" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="ic-info" id="K8S-Ip-8m1"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Survey" id="oyA-yJ-afD"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="activeSurveyHeader" destination="7Ol-rl-pK7" id="kQw-oI-1Jl"/>
@@ -300,7 +297,7 @@
                     </constraints>
                 </view>
             </objects>
-            <point key="canvasLocation" x="1083" y="459"/>
+            <point key="canvasLocation" x="993" y="1206"/>
         </scene>
         <!--Login navigation-->
         <scene sceneID="y81-th-GhJ">
@@ -318,7 +315,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lq4-mu-p2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="-302"/>
+            <point key="canvasLocation" x="276" y="-369"/>
         </scene>
         <!--Main Study Navigation-->
         <scene sceneID="YIi-K4-a6h">
@@ -334,7 +331,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EJ9-Je-sif"/>
+                        <segue destination="mLo-Qb-Jil" kind="relationship" relationship="rootViewController" id="3rC-6K-Vyt"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I27-dE-j63" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -457,12 +454,243 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Q8-TD-fAj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1031" y="1220"/>
+            <point key="canvasLocation" x="993" y="1906"/>
+        </scene>
+        <!--HomeViewController-->
+        <scene sceneID="YB1-UC-WJK">
+            <objects>
+                <viewController id="mLo-Qb-Jil" userLabel="HomeViewController" customClass="HomeViewController" customModule="Beiwe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jqw-L2-IWg"/>
+                        <viewControllerLayoutGuide type="bottom" id="wVd-em-uhL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4tb-tg-Pao" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="main-image" translatesAutoresizingMaskIntoConstraints="NO" id="MeD-72-yLR">
+                                <rect key="frame" x="-113" y="20" width="600" height="107"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phw-8C-fsc">
+                                <rect key="frame" x="0.0" y="416" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Phw-8C-fsc" secondAttribute="height" multiplier="1:1" id="Nir-ju-xlJ"/>
+                                </constraints>
+                                <state key="normal" image="new_suvey"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="fD6-la-gmr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0p7-3q-X7e">
+                                <rect key="frame" x="187.5" y="230" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0p7-3q-X7e" secondAttribute="height" multiplier="1:1" id="b1Z-T1-F8p"/>
+                                </constraints>
+                                <state key="normal" image="search_job"/>
+                                <connections>
+                                    <segue destination="YCQ-B3-uTP" kind="show" id="1P0-3z-aOW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YK-Nx-AKr">
+                                <rect key="frame" x="187.5" y="416" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4YK-Nx-AKr" secondAttribute="height" multiplier="1:1" id="fag-97-0Bx"/>
+                                </constraints>
+                                <state key="normal" image="coupon"/>
+                                <connections>
+                                    <segue destination="kih-9h-f5J" kind="show" id="MjH-9G-rUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHa-IP-BaM">
+                                <rect key="frame" x="0.0" y="230" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mHa-IP-BaM" secondAttribute="height" multiplier="1:1" id="v5V-vR-TwV"/>
+                                </constraints>
+                                <state key="normal" image="search_route"/>
+                                <connections>
+                                    <segue destination="hue-hl-bDM" kind="show" id="gdE-80-1Jb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0p7-3q-X7e" secondAttribute="trailing" id="1Kv-zJ-AOR"/>
+                            <constraint firstItem="4YK-Nx-AKr" firstAttribute="leading" secondItem="Phw-8C-fsc" secondAttribute="trailing" id="8tM-gh-LkN"/>
+                            <constraint firstItem="Phw-8C-fsc" firstAttribute="leading" secondItem="4tb-tg-Pao" secondAttribute="leading" id="AOj-UF-VmS"/>
+                            <constraint firstAttribute="bottom" secondItem="4YK-Nx-AKr" secondAttribute="bottom" constant="-0.5" id="CAJ-vh-h7b"/>
+                            <constraint firstItem="Phw-8C-fsc" firstAttribute="width" secondItem="4YK-Nx-AKr" secondAttribute="height" multiplier="1:1" id="Ijl-wK-CEH"/>
+                            <constraint firstItem="mHa-IP-BaM" firstAttribute="width" secondItem="Phw-8C-fsc" secondAttribute="height" multiplier="1:1" id="Ile-bv-WuX"/>
+                            <constraint firstAttribute="bottom" secondItem="Phw-8C-fsc" secondAttribute="bottom" constant="-0.5" id="M9l-zN-zKb"/>
+                            <constraint firstItem="mHa-IP-BaM" firstAttribute="leading" secondItem="4tb-tg-Pao" secondAttribute="leading" id="OzN-FN-D51"/>
+                            <constraint firstItem="Phw-8C-fsc" firstAttribute="height" secondItem="mHa-IP-BaM" secondAttribute="height" id="TRV-ZQ-38B"/>
+                            <constraint firstItem="4YK-Nx-AKr" firstAttribute="top" secondItem="0p7-3q-X7e" secondAttribute="bottom" constant="-1.5" id="TrB-KT-gfN"/>
+                            <constraint firstItem="0p7-3q-X7e" firstAttribute="width" secondItem="4YK-Nx-AKr" secondAttribute="width" id="Tvb-vw-etZ"/>
+                            <constraint firstItem="Phw-8C-fsc" firstAttribute="width" secondItem="mHa-IP-BaM" secondAttribute="width" id="YaH-xP-kJB"/>
+                            <constraint firstItem="MeD-72-yLR" firstAttribute="width" secondItem="4tb-tg-Pao" secondAttribute="width" id="Z7w-yk-gEP"/>
+                            <constraint firstItem="Phw-8C-fsc" firstAttribute="top" secondItem="mHa-IP-BaM" secondAttribute="bottom" constant="-1.5" id="aKL-cZ-d3j"/>
+                            <constraint firstItem="MeD-72-yLR" firstAttribute="height" secondItem="4tb-tg-Pao" secondAttribute="height" multiplier="1/5" id="d1q-W3-nRd"/>
+                            <constraint firstAttribute="trailing" secondItem="4YK-Nx-AKr" secondAttribute="trailing" id="dPM-cp-DA8"/>
+                            <constraint firstItem="MeD-72-yLR" firstAttribute="centerX" secondItem="4tb-tg-Pao" secondAttribute="centerX" id="rtd-Nb-uUf"/>
+                            <constraint firstItem="0p7-3q-X7e" firstAttribute="width" secondItem="4YK-Nx-AKr" secondAttribute="height" multiplier="1:1" id="sD8-Py-Yy7"/>
+                            <constraint firstItem="0p7-3q-X7e" firstAttribute="height" secondItem="4YK-Nx-AKr" secondAttribute="height" id="u2A-zw-TeR"/>
+                            <constraint firstItem="MeD-72-yLR" firstAttribute="top" secondItem="jqw-L2-IWg" secondAttribute="bottom" constant="25" id="wVd-ZC-p7c"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Futto Home" id="lj4-5H-pqu">
+                        <barButtonItem key="leftBarButtonItem" image="ic-user" id="lza-IA-Plp">
+                            <color key="tintColor" red="0.98823529409999999" green="1" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ic-info" id="ddr-Z3-u8J"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emptySurveyHeader" destination="N0x-11-GBl" id="blH-bp-6eo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h5e-lr-egT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="358"/>
+        </scene>
+        <!--MapViewController-->
+        <scene sceneID="F8k-xm-KmY">
+            <objects>
+                <viewController id="hue-hl-bDM" userLabel="MapViewController" customClass="MapViewController" customModule="Beiwe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fU5-KY-tby"/>
+                        <viewControllerLayoutGuide type="bottom" id="wCk-eb-dqA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GDT-G1-f50" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MLk-Ju-J3F">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-cR-BRI">
+                                <rect key="frame" x="162" y="499" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="HnY-dr-02B"/>
+                                    <constraint firstAttribute="height" constant="50" id="KcU-Nq-uhu"/>
+                                    <constraint firstAttribute="width" secondItem="Uuv-cR-BRI" secondAttribute="height" multiplier="1:1" id="Tya-ct-DMP"/>
+                                </constraints>
+                                <state key="normal" image="ic_home"/>
+                                <connections>
+                                    <segue destination="fIu-4D-Zfs" kind="show" id="xIb-eM-M6g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wCk-eb-dqA" firstAttribute="top" secondItem="Uuv-cR-BRI" secondAttribute="bottom" constant="10" id="3vH-SV-3Y3"/>
+                            <constraint firstItem="MLk-Ju-J3F" firstAttribute="top" secondItem="fU5-KY-tby" secondAttribute="bottom" id="VkR-h6-nTM"/>
+                            <constraint firstItem="Uuv-cR-BRI" firstAttribute="leading" secondItem="GDT-G1-f50" secondAttribute="leadingMargin" constant="146" id="cEH-rT-OQO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uuv-cR-BRI" secondAttribute="trailing" constant="147" id="eL4-7A-FRa"/>
+                            <constraint firstAttribute="trailing" secondItem="MLk-Ju-J3F" secondAttribute="trailing" id="g8Z-oO-Qhi"/>
+                            <constraint firstItem="wCk-eb-dqA" firstAttribute="top" secondItem="MLk-Ju-J3F" secondAttribute="bottom" id="ilL-Cg-cNS"/>
+                            <constraint firstItem="MLk-Ju-J3F" firstAttribute="leading" secondItem="GDT-G1-f50" secondAttribute="leading" id="weu-pf-WR5"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Route" id="ouQ-ac-7y0">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="wyC-eY-sSB">
+                            <connections>
+                                <action selector="searchButton:" destination="hue-hl-bDM" id="5CR-KK-X5S"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emptySurveyHeader" destination="N0x-11-GBl" id="kFD-rc-sXn"/>
+                        <outlet property="goButton" destination="Uuv-cR-BRI" id="fpg-e7-w5r"/>
+                        <outlet property="mapView" destination="MLk-Ju-J3F" id="vPb-o8-KN5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kz0-Hf-Kob" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2033" y="358"/>
+        </scene>
+        <!--WebViewController-->
+        <scene sceneID="H0U-tp-bSo">
+            <objects>
+                <viewController id="YCQ-B3-uTP" userLabel="WebViewController" customClass="WebViewController" customModule="Beiwe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aTc-aN-I6S"/>
+                        <viewControllerLayoutGuide type="bottom" id="wQi-fd-fAG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UYc-Q6-juk" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Job" id="nE5-hh-XhF"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emptySurveyHeader" destination="N0x-11-GBl" id="tgR-XH-LBF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wfK-uM-gkr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2033" y="-369"/>
+        </scene>
+        <!--UberViewController-->
+        <scene sceneID="a6v-hq-9go">
+            <objects>
+                <viewController id="fIu-4D-Zfs" userLabel="UberViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sqw-rW-r7N"/>
+                        <viewControllerLayoutGuide type="bottom" id="lz6-6K-zbn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8EO-Qu-IbS" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Select Your Route" id="2ss-U9-apv"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emptySurveyHeader" destination="N0x-11-GBl" id="v1s-qn-gL4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fPv-fz-4Z1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2929" y="358"/>
+        </scene>
+        <!--CouponViewController-->
+        <scene sceneID="D9b-VT-6UB">
+            <objects>
+                <viewController id="kih-9h-f5J" userLabel="CouponViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EHo-fs-mHf"/>
+                        <viewControllerLayoutGuide type="bottom" id="j5T-4D-ThJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rW3-kV-eIq" customClass="GradientView" customModule="Beiwe" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.054901961239999998" green="0.38039216399999998" blue="0.37254902719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Coupon" id="hFy-By-cyJ"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emptySurveyHeader" destination="N0x-11-GBl" id="4Vn-pJ-KZE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Npg-Ts-7Mz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2033" y="1206"/>
         </scene>
     </scenes>
     <resources>
+        <image name="coupon" width="824" height="788"/>
         <image name="ic-info" width="22" height="22"/>
         <image name="ic-user" width="22" height="22"/>
+        <image name="ic_home" width="240" height="240"/>
         <image name="main-image" width="126" height="125"/>
+        <image name="new_suvey" width="824" height="784"/>
+        <image name="search_job" width="824" height="784"/>
+        <image name="search_route" width="824" height="784"/>
     </resources>
 </document>

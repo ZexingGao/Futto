@@ -31,6 +31,9 @@ PODS:
   - ReachabilitySwift (4.1.0)
   - ResearchKit (1.5.2)
   - SwiftValidator (4.0.0)
+  - UberCore (0.10.0)
+  - UberRides (0.10.0):
+    - UberCore
   - XCGLogger (5.0.5):
     - XCGLogger/Core (= 5.0.5)
   - XCGLogger/Core (5.0.5):
@@ -55,6 +58,7 @@ DEPENDENCIES:
   - ReachabilitySwift
   - ResearchKit
   - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - UberRides (~> 0.9)
   - XCGLogger (~> 5.0.1)
   - XLActionController
 
@@ -72,6 +76,8 @@ SPEC REPOS:
     - PromiseKit
     - ReachabilitySwift
     - ResearchKit
+    - UberCore
+    - UberRides
     - XCGLogger
     - XLActionController
 
@@ -126,9 +132,11 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   ResearchKit: a5770681dd61afddd3d1f24d232b9abf00cba454
   SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  UberCore: 512950407dadc8045a583e4a509da2750ae7dc21
+  UberRides: cc6d7c5232966e45229dda1534106b33e379dfbe
   XCGLogger: 49bceee6dc0c738eae5d6454fdbf800d62256b74
   XLActionController: 007868251c0eed70d649d06c1625259b73b3a600
 
-PODFILE CHECKSUM: fe6a53ca0f034514c6fe387ad6081317544197d3
+PODFILE CHECKSUM: 6ce9328a8d247aba844761f625d5281f46032ae5
 
 COCOAPODS: 1.5.3
